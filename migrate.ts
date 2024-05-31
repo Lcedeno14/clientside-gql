@@ -5,3 +5,4 @@ import { migrate } from 'drizzle-orm/libsql/migrator'
 ;(async () => {
   await migrate(db, { migrationsFolder: resolve(__dirname, './migrations') })
 })()
+//hello
